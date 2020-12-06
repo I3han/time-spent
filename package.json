@@ -1,0 +1,22 @@
+{
+  "name": "time-spent",
+  "version": "1.0.0",
+  "description": "package to get timestamp between two times",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I3han/time-spent"
+  },
+  "keywords": [
+    "npm",
+    "time-spent"
+  ],
+  "author": "ishan avishka <ishanavishka14@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
