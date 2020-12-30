@@ -22,7 +22,7 @@ const moment = require('moment');
                 timestampStr=gettingDays+" days ago"
             }else{
                
-                var timestamp = moment.utc(moment(now, "DD/MM/YYYY HH:mm:ss").diff(moment(then, "DD/MM/YYYY HH:mm:ss"))).format("HH:mm:ss");
+                var timestamp = moment.utc(moment(now, "DD/MM/YYYY HH:mm:ss").diff(moment(new Date(then), "DD/MM/YYYY HH:mm:ss"))).format("HH:mm:ss");
                 
                
                 if (parseInt(timestamp.substring(0, 2)) > 0) timestampStr = timestamp.substring(0, 2) + " hours ago";
